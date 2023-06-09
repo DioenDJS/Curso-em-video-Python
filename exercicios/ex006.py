@@ -6,5 +6,5 @@ num = int(input('Digite um número : '))
 
 numDobro = num * 2
 numTriplo = num * 3
-numRaiz = num ** (1/2)
+numRaiz = num ** (1/2) # outra forma de calcular rais quadrada pow(num , (1/2))
 print('O dobro do valor {} é : {} o triplo é : {} e a raiz quadrada é : {:.3} '.format(num, numDobro, numTriplo, numRaiz))
