@@ -8,4 +8,4 @@ centimetros = metros * 100
 
 milimetros = metros * 1000
 
-print('convertendo {} metros em {} centimetros e em milimetros {}'.format(metros, centimetros, milimetros))
+print('convertendo {} metros em {:.0f} centimetros e em milimetros {:.0f}'.format(metros, centimetros, milimetros))
