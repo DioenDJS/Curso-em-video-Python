@@ -6,6 +6,6 @@ USS1.00 = R$3.27
 
 valorCarteira = float(input('Digite quando vc tem em dinheiro em sua carteira : '))
 
-quantidade = valorCarteira // 3.27
+quantidade = valorCarteira / 3.27
 
-print('Podera ser comprado USS{} dolares '.format(quantidade))
+print('Podera ser comprado USS{:.2f} dolares '.format(quantidade))
