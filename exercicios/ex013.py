@@ -4,8 +4,8 @@ Faça um algoritmo que leia o saário de um  funcionário e mostre seu novo sal�
 
 salario = float(input('Digite o salário do funcionário : '))
 
-aumento = (15 / 100) * salario
+aumento = (salario * 15) / 100
 
 novoSalario = salario + aumento
 
-print('O salario do funcionario de {}R$ sofreu um aumento de 15% {}R$ ficando em : {}R$'.format(salario, aumento, novoSalario))
+print('O salario do funcionario de {:.2f}R$ sofreu um aumento de 15% {:.2f}R$ ficando em : {:.2f}R$'.format(salario, aumento, novoSalario))
