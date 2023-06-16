@@ -10,7 +10,7 @@ Crie um programa que leia o nome completo de uma pessoa e mostre:
 > quantas letras tem o primeito nome
 """
 
-nomeCompleto = str(input("Digite seu nome completo : "))
+nomeCompleto = str(input("Digite seu nome completo : ")).strip()
 
 nomeCompletoSeparados = nomeCompleto.split()
 nomeCompletoSemEspaço = "".join(nomeCompletoSeparados)
@@ -22,3 +22,8 @@ print('Total de letras no nome : {}'.format(quantasLetrasTemNoNome))
 print('Primeiro nome : {}'.format(len(nomeCompletoSeparados[0])))
 
 
+"""
+resoluçoes do Gustavo Guanabara 
+len(nomeCompleto) - nomeCompleto.count(" ")  =  total de letras do nome
+nomeCompleto.count(" ") = tamanho ou total de letra do primeiro nome 
+"""
