@@ -2,7 +2,7 @@
 Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "SANTO"
 """
 
-nomeCidade = input('Digite o nome da Cidade : ')
+nomeCidade = input('Digite o nome da Cidade : ').strip()
 
 nomeCidadeMaiuscula = nomeCidade.upper()
 
